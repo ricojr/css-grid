@@ -1,0 +1,70 @@
+.section1 {
+    display: flex;
+    flex-flow: column row;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section2 {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 100px;
+}
+
+img {
+    width: 70%;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box1 {
+    flex: 4;
+    text-align: center;
+    padding: 30px;
+}
+
+.box2 {
+    flex: 4;
+}
+
+.box3 {
+    flex: 4;
+    order: 1;
+    text-align: center;
+}
+
+.box4 {
+    flex: 4;
+    order: 2;
+    text-align: center;
+}
+
+.box5 {
+    flex: 4;
+    order: 3;
+    text-align: center;
+}
+
+.box6 {
+    flex: 4;
+    order: 4;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 0 20px;
+}
+
+p {}
